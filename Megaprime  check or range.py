@@ -23,7 +23,7 @@ while True:
 		elif is_prime(n) and (not is_megaprime(n)):
 			print("Not a megaprime but prime")
 		else:
-			print("Not a megaprime")
+			print("Not a prime")
 	elif p=="Range" or p=="range":
 		a,b=map(int,input("Enter range: ").split())
 		if a>b:
